@@ -1,0 +1,47 @@
+auth_backend/dist
+auth_backend/node_modules
+auth_web_app/dist
+auth_web_app/node_modules
+.env
+/pgdata
+
+# Logs
+logs
+*.log
+auth_backend/npm-debug.log*
+auth_backend/pnpm-debug.log*
+auth_backend/yarn-debug.log*
+auth_backend/yarn-error.log*
+auth_backend/lerna-debug.log*
+auth_web_app/npm-debug.log*
+auth_web_app/pnpm-debug.log*
+auth_web_app/yarn-debug.log*
+auth_web_app/yarn-error.log*
+auth_web_app/lerna-debug.log*
+
+
+# OS
+.DS_Store
+
+# Tests
+auth_backend/coverage
+auth_backend/.nyc_output
+auth_web_app/coverage
+auth_web_app/.nyc_output
+
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
